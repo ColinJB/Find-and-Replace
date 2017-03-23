@@ -6,7 +6,10 @@ public class FaR {
   String[] input = {};
 
   public String wordReplace(String phrase, String word, String replacementWord) {
-    String newPhrase = phrase.replace(word, replacementWord);
+    String lowPhrase = phrase.toLowerCase();
+    String lowWord = word.toLowerCase();
+    String lowReplacementWord = replacementWord.toLowerCase();
+    String newPhrase = lowPhrase.replace(lowWord, lowReplacementWord);
     return newPhrase;
   }
 
