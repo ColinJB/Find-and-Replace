@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FaRTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-03-23T17:11:02" hostname="Epicodus-7G.local" time="0.002">
+<testsuite name="FaRTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-03-23T17:22:03" hostname="Epicodus-7G.local" time="0.002">
   <properties/>
   <testcase name="wordReplace_replaceInputWithinWords_String" classname="FaRTest" time="0.001"/>
-  <testcase name="wordReplace_replaceMultipleWords_String" classname="FaRTest" time="0.001"/>
+  <testcase name="wordReplace_replaceMultipleWords_String" classname="FaRTest" time="0.0"/>
   <testcase name="wordReplace_instantiatesCorrectly_Array" classname="FaRTest" time="0.0"/>
   <testcase name="wordReplace_replaceWord_String" classname="FaRTest" time="0.0"/>
   <testcase name="wordReplace_replaceWordsRegardlessOfCapitilization_String" classname="FaRTest" time="0.0"/>
