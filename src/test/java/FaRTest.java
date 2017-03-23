@@ -23,5 +23,12 @@ public class FaRTest {
     assertEquals(expected, testFar.wordReplace("a new phrase new","new","newer"));
   }
 
+  @Test
+  public void wordReplace_replaceInputWithinWords_Strings() {
+    FaR testFar = new FaR();
+    String expected = "a knewer phrase knewer";
+    assertEquals(expected, testFar.wordReplace("a knew phrase knew","new","newer"));
+  }
+
 
 }
