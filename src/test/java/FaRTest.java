@@ -10,10 +10,10 @@ public class FaRTest {
   }
 
   @Test
-  public void wordReplace_returnWord_Strings() {
+  public void wordReplace_returnNewPhrase_Strings() {
     FaR testFar = new FaR();
-    String[] expected = {"a word", "word", "new"};
-    assertEquals(expected, testFar.wordReplace("","",""));
+    String expected = "a newer phrase";
+    assertEquals(expected, testFar.wordReplace("a new phrase","new","newer"));
   }
 
 
